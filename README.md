@@ -1,13 +1,14 @@
 Virtualhost Manage Script
 ===========
 
-Bash Script to allow create or delete apache virtual hosts on Centos 7 on a quick way.
+Bash Script to allow create or delete apache virtual hosts on Centos 7 on a quick way.  
 Modified from https://github.com/RoverWire/virtualhost
 
 ## Installation ##
 
 1. Download the script
 1. Create sites-enabled and sites-available directory
+       
         $ mkdir /etc/httpd/sites-available
         $ mkdir /etc/httpd/sites-enabled
 
